@@ -1,0 +1,24 @@
+{
+  "metricSelections": [
+    {
+      "aggregateFunction": "sum",
+      "metricType": "clicks"
+    },
+    {
+      "aggregateFunction": "sum",
+      "metricType": "impressions"
+    }
+  ],
+  "dimensionsFilters": [
+    {
+      "type": "equal",
+      "dimension": "campaign",
+      "value": "Campaign 1"
+    },
+    {
+      "type": "equal",
+      "dimension": "date",
+      "value": "11/12/19"
+    }
+  ]
+}
